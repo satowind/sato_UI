@@ -1,0 +1,2204 @@
+.sato{
+	background-color: navy; 
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	border: 2px solid navy;
+	cursor: pointer;
+	text-transform: uppercase;
+} 
+.sato:hover {
+    background-color: white; 
+    border: none;
+    color:navy;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border :2px solid navy;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.sa_rect{
+	background-color: navy; 
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	border: 2px solid navy;
+	cursor: pointer;
+}
+
+.sa_rect:hover {
+    background-color: white; 
+    border: none;
+    color:navy;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border :2px solid navy;
+    cursor: pointer;
+}
+
+.sa_oval {
+    border-radius:50px;
+}
+
+.sa_oval:hover {
+    border-radius: 50px;
+}
+
+
+.sa_rect_oval {
+    border-radius:12px;
+}
+
+.sa_rect_oval:hover {
+    border-radius: 12px;
+}
+
+.sa_circle {
+    border-radius:100%;
+}
+
+.sa_circle:hover {
+    border-radius: 100%;
+}
+
+.sa_round {
+    padding: 20px;
+    border-radius:100%;
+}
+
+.sa_round:hover {
+    padding: 20px;
+    border-radius: 100%;
+}
+
+.sa_dis {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.sa_dis:hover {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.sa_press {
+  display: inline-block;
+  padding: 15px 30px;
+  font-size: 18px;
+  cursor: pointer;
+  text-align: center;	
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: navy;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.sa_press:hover {
+	color:white;
+	background-color: navy
+}
+
+.sa_press:active {
+  color: white;
+  background-color: navy;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.sa_ripple {
+    position: relative;
+    background-color: navy;
+    border: none;
+    font-size: 18px;
+    color: #FFFFFF;
+    padding: 15px 30px;
+    width: 150px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.sa_ripple:after {
+    content: "";
+    background: #90EE90;
+    display: block;
+    position: absolute;
+    padding-top: 200%;
+    padding-left: 200%;
+    margin-left: -40px !important;
+    margin-top: -100%;
+    opacity: 0;
+    transition: all 1s
+}
+
+.sa_ripple:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+}
+
+.sa_flash{
+	background-color: navy; 
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	border: 2px solid navy;
+	cursor: pointer;
+}
+
+.sa_flash:hover {
+    background-color: white; 
+    border: none;
+    color:navy;
+    padding: 20px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 32px;
+    border :2px solid navy;
+    cursor: pointer;
+}
+
+.sa_but_after {
+  display: inline-block;
+  background-color: navy;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 16px;
+   padding: 15px 32px;
+  width: 150px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.sa_but_after span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.sa_but_after span:after {
+  content: ">>";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+}
+
+.sa_but_after:hover span {
+  padding-right: 25px;
+}
+
+.sa_but_after:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.sa_but_before {
+  display: inline-block;
+  background-color: navy;
+  color: #ffffff;
+  text-align: center;
+  font-size: 16px;
+  padding:15px ;
+  width:150px;
+  cursor: pointer;
+  transition:all 0.5s;
+  margin: 5px;
+  vertical-align: center;
+}
+
+.sa_but_before span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+}
+
+.sa_but_before span::before {
+  content: "<<";
+  position: absolute;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.sa_but_before:hover span {
+  padding-left: 25px;
+}
+
+.sa_but_before:hover span::before {
+  opacity: 1;
+  left: 0px;
+}
+
+.sa_side{
+	border-radius:50px 0;
+}
+
+.sa_side:hover{
+	border-radius:50px 0;
+}
+
+.sa_top{
+	border-radius: 25px 25px 0 0px;
+}
+
+.sa_top:hover{
+	border-radius: 25px 25px 0 0px;
+}
+
+.sa_top_arrow{
+	border-radius: 50px 50px 0 0;
+}
+
+.sa_top_arrow:hover{
+	border-radius: 50px 50px 0 0;
+}
+
+.sa_bottom{
+	border-radius: 0 0 25px 25px ;
+}
+
+.sa_bottom:hover{
+	border-radius: 0 0 25px 25px ;
+}
+
+.sa_bottom_arrow{
+	border-radius: 0 0 50px 50px ;
+}
+
+.sa_bottom_arrow:hover{
+	border-radius: 0 0 50px 50px ;
+}
+
+.sa_right{
+	border-radius: 0px 25px 25px 0px;
+	padding-left: 15px;
+}
+
+.sa_right:hover{
+	border-radius: 0px 25px 25px 0px;
+	padding-left: 15px;
+}
+
+.sa_left{
+	border-radius:  25px 0 0 25px;
+	padding-right: 15px;
+}
+
+.sa_left:hover{
+	border-radius: 25px 0 0  25px;
+	padding-right: 15px;
+}
+
+.to_black{
+	color:white;
+	background-color:black;
+	border:2px solid black;
+}
+
+.to_black:hover{
+	color:black;
+	background-color:white;
+	border:2px solid black;
+}
+
+.to_blue{
+	color:white;
+	background-color:blue;
+	border:2px solid blue;
+}
+
+.to_blue:hover{
+	color:blue;
+	background-color:white;
+	border:2px solid blue;
+}
+
+.to_red{
+	color:white;
+	background-color:red;
+	border:2px solid red;
+}
+
+.to_red:hover{
+	color:red;
+	background-color:white;
+	border:2px solid red;
+}
+
+.to_yellow{
+	color:white;
+	background-color:yellow;
+	border:2px solid yellow;
+}
+
+.to_yellow:hover{
+	color:yellow;
+	background-color:white;
+	border:2px solid yellow;
+}
+
+.to_orange{
+	color:white;
+	background-color:orange;
+	border:2px solid orange;
+}
+
+.to_orange:hover{
+	color:orange;
+	background-color:white;
+	border:2px solid orange;
+}
+
+.to_cyan{
+	color:white;
+	background-color:cyan;
+	border:2px solid cyan;
+}
+
+.to_cyan:hover{
+	color:cyan;
+	background-color:white;
+	border:2px solid cyan;
+}
+
+.to_yellowgreen {
+	color:white;
+	background-color:YellowGreen ;
+	border:2px solid YellowGreen ;
+}
+
+.to_yellowgreen:hover{
+	color:YellowGreen ;
+	background-color:white;
+	border:2px solid YellowGreen ;
+}
+
+.to_whitesmoke {
+	color:white;
+	background-color:WhiteSmoke ;
+	border:2px solid WhiteSmoke ;
+}
+
+.to_whitesmoke:hover{
+	color:WhiteSmoke ;
+	background-color:white;
+	border:2px solid WhiteSmoke ;
+}
+
+.to_wheat {
+	color:white;
+	background-color:wheat ;
+	border:2px solid wheat ;
+}
+
+.to_wheat:hover{
+	color:wheat ;
+	background-color:white;
+	border:2px solid wheat ;
+}
+
+.to_violet {
+	color:white;
+	background-color:violet ;
+	border:2px solid violet ;
+}
+
+.to_violet:hover{
+	color:violet ;
+	background-color:white;
+	border:2px solid violet ;
+}
+
+.to_turquoise {
+	color:white;
+	background-color:turquoise ;
+	border:2px solid turquoise ;
+}
+
+.to_turquoise:hover{
+	color:turquoise ;
+	background-color:white;
+	border:2px solid turquoise ;
+}
+
+.to_tomato {
+	color:white;
+	background-color:tomato ;
+	border:2px solid tomato ;
+}
+
+.to_tomato:hover{
+	color:tomato ;
+	background-color:white;
+	border:2px solid tomato ;
+}
+
+.to_thistle {
+	color:white;
+	background-color:thistle ;
+	border:2px solid thistle ;
+}
+
+.to_thistle:hover{
+	color:thistle ;
+	background-color:white;
+	border:2px solid thistle ;
+}
+
+.to_teal {
+	color:white;
+	background-color:teal ;
+	border:2px solid teal ;
+}
+
+.to_teal:hover{
+	color:teal ;
+	background-color:white;
+	border:2px solid teal ;
+}
+
+.to_tan {
+	color:white;
+	background-color:tan ;
+	border:2px solid tan ;
+}
+
+.to_tan:hover{
+	color:tan ;
+	background-color:white;
+	border:2px solid tan ;
+}
+
+.to_steelblue {
+	color:white;
+	background-color:steelblue ;
+	border:2px solid steelblue ;
+}
+
+.to_steelblue:hover{
+	color:steelblue ;
+	background-color:white;
+	border:2px solid steelblue ;
+}
+
+.to_springgreen {
+	color:white;
+	background-color:springgreen ;
+	border:2px solid springgreen ;
+}
+
+.to_springgreen:hover{
+	color:springgreen ;
+	background-color:white;
+	border:2px solid springgreen ;
+}
+
+.to_snow {
+	color:white;
+	background-color:snow ;
+	border:2px solid snow ;
+}
+
+.to_snow:hover{
+	color:snow ;
+	background-color:white;
+	border:2px solid snow ;
+}
+
+.to_slategrey {
+	color:white;
+	background-color:slategrey ;
+	border:2px solid slategrey ;
+}
+
+.to_slategrey:hover{
+	color:slategrey ;
+	background-color:white;
+	border:2px solid slategrey ;
+}
+
+.to_slateblue {
+	color:white;
+	background-color:slateblue ;
+	border:2px solid slateblue ;
+}
+
+.to_slateblue:hover{
+	color:slateblue ;
+	background-color:white;
+	border:2px solid slateblue ;
+}
+
+.to_skyblue {
+	color:white;
+	background-color:skyblue ;
+	border:2px solid skyblue ;
+}
+
+.to_skyblue:hover{
+	color:skyblue ;
+	background-color:white;
+	border:2px solid skyblue ;
+}
+
+.to_silver {
+	color:white;
+	background-color:silver ;
+	border:2px solid silver ;
+}
+
+.to_silver:hover{
+	color:silver ;
+	background-color:white;
+	border:2px solid silver ;
+}
+
+.to_sienna {
+	color:white;
+	background-color:sienna ;
+	border:2px solid sienna ;
+}
+
+.to_sienna:hover{
+	color:sienna ;
+	background-color:white;
+	border:2px solid sienna ;
+}
+
+.to_seashell {
+	color:white;
+	background-color:seashell ;
+	border:2px solid seashell ;
+}
+
+.to_seashell:hover{
+	color:seashell ;
+	background-color:white;
+	border:2px solid seashell ;
+}
+
+.to_seagreen {
+	color:white;
+	background-color:seagreen ;
+	border:2px solid seagreen ;
+}
+
+.to_seagreen:hover{
+	color:seagreen ;
+	background-color:white;
+	border:2px solid seagreen ;
+}
+
+.to_sandybrown {
+	color:white;
+	background-color:sandybrown ;
+	border:2px solid sandybrown ;
+}
+
+.to_sandybrown:hover{
+	color:sandybrown ;
+	background-color:white;
+	border:2px solid sandybrown ;
+}
+
+.to_salmon {
+	color:white;
+	background-color:salmon ;
+	border:2px solid salmon ;
+}
+
+.to_salmon:hover{
+	color:salmon ;
+	background-color:white;
+	border:2px solid salmon ;
+}
+
+.to_saddlebrown {
+	color:white;
+	background-color:saddlebrown ;
+	border:2px solid saddlebrown ;
+}
+
+.to_saddlebrown:hover{
+	color:saddlebrown ;
+	background-color:white;
+	border:2px solid saddlebrown ;
+}
+
+.to_royalblue {
+	color:white;
+	background-color:royalblue ;
+	border:2px solid royalblue ;
+}
+
+.to_royalblue:hover{
+	color:royalblue ;
+	background-color:white;
+	border:2px solid royalblue ;
+}
+
+.to_rosybrown {
+	color:white;
+	background-color:rosybrown ;
+	border:2px solid rosybrown ;
+}
+
+.to_rosybrown:hover{
+	color:rosybrown ;
+	background-color:white;
+	border:2px solid rosybrown ;
+}
+
+.to_rebeccapurple {
+	color:white;
+	background-color:rebeccapurple ;
+	border:2px solid rebeccapurple ;
+}
+
+.to_rebeccapurple:hover{
+	color:rebeccapurple ;
+	background-color:white;
+	border:2px solid rebeccapurple ;
+}
+
+.to_purple {
+	color:white;
+	background-color:purple ;
+	border:2px solid purple ;
+}
+
+.to_purple:hover{
+	color:purple ;
+	background-color:white;
+	border:2px solid purple ;
+}
+
+.to_powerblue {
+	color:white;
+	background-color:powerblue ;
+	border:2px solid powerblue ;
+}
+
+.to_powerblue:hover{
+	color:powerblue ;
+	background-color:white;
+	border:2px solid powerblue ;
+}
+
+.to_powerblue {
+	color:white;
+	background-color:powerblue ;
+	border:2px solid powerblue ;
+}
+
+.to_powerblue:hover{
+	color:powerblue ;
+	background-color:white;
+	border:2px solid powerblue ;
+}
+
+.to_plum {
+	color:white;
+	background-color:plum ;
+	border:2px solid plum ;
+}
+
+.to_plum:hover{
+	color:plum ;
+	background-color:white;
+	border:2px solid plum ;
+}
+
+.to_pink {
+	color:white;
+	background-color:pink ;
+	border:2px solid pink ;
+}
+
+.to_pink:hover{
+	color:pink ;
+	background-color:white;
+	border:2px solid pink ;
+}
+
+.to_peru {
+	color:white;
+	background-color:peru ;
+	border:2px solid peru ;
+}
+
+.to_peru:hover{
+	color:peru ;
+	background-color:white;
+	border:2px solid peru ;
+}
+
+.to_peachpuff {
+	color:white;
+	background-color:peachpuff ;
+	border:2px solid peachpuff ;
+}
+
+.to_peachpuff:hover{
+	color:peachpuff ;
+	background-color:white;
+	border:2px solid peachpuff ;
+}
+
+.to_papayawhip {
+	color:white;
+	background-color:papayawhip ;
+	border:2px solid papayawhip ;
+}
+
+.to_papayawhip:hover{
+	color:papayawhip ;
+	background-color:white;
+	border:2px solid papayawhip ;
+}
+
+.to_palevioletred {
+	color:white;
+	background-color:palevioletred ;
+	border:2px solid palevioletred ;
+}
+
+.to_palevioletred:hover{
+	color:palevioletred ;
+	background-color:white;
+	border:2px solid palevioletred ;
+}
+
+.to_paleturquoise {
+	color:white;
+	background-color:paleturquoise ;
+	border:2px solid paleturquoise ;
+}
+
+.to_paleturquoise:hover{
+	color:paleturquoise ;
+	background-color:white;
+	border:2px solid paleturquoise ;
+}
+
+.to_palegreen {
+	color:white;
+	background-color:palegreen ;
+	border:2px solid palegreen ;
+}
+
+.to_palegreen:hover{
+	color:palegreen ;
+	background-color:white;
+	border:2px solid palegreen ;
+}
+
+.to_palegoldenrod {
+	color:white;
+	background-color:palegoldenrod ;
+	border:2px solid palegoldenrod ;
+}
+
+.to_palegoldenrod:hover{
+	color:palegoldenrod ;
+	background-color:white;
+	border:2px solid palegoldenrod ;
+}
+
+.to_orchid {
+	color:white;
+	background-color:orchid ;
+	border:2px solid orchid ;
+}
+
+.to_orchid:hover{
+	color:orchid ;
+	background-color:white;
+	border:2px solid orchid ;
+}
+
+.to_orangered {
+	color:white;
+	background-color:orangered ;
+	border:2px solid orangered ;
+}
+
+.to_orangered:hover{
+	color:orangered ;
+	background-color:white;
+	border:2px solid orangered ;
+}
+
+.to_orange {
+	color:white;
+	background-color:orange ;
+	border:2px solid orange ;
+}
+
+.to_orange:hover{
+	color:orange ;
+	background-color:white;
+	border:2px solid orange ;
+}
+
+.to_olivedrab {
+	color:white;
+	background-color:olivedrab ;
+	border:2px solid olivedrab ;
+}
+
+.to_olivedrab:hover{
+	color:olivedrab ;
+	background-color:white;
+	border:2px solid olivedrab ;
+}
+
+.to_olive {
+	color:white;
+	background-color:olive ;
+	border:2px solid olive ;
+}
+
+.to_olive:hover{
+	color:olive ;
+	background-color:white;
+	border:2px solid olive ;
+}
+
+.to_oldlace {
+	color:white;
+	background-color:oldlace ;
+	border:2px solid oldlace ;
+}
+
+.to_oldlace:hover{
+	color:oldlace ;
+	background-color:white;
+	border:2px solid oldlace ;
+}
+
+.to_navy {
+	color:white;
+	background-color:navy ;
+	border:2px solid navy ;
+}
+
+.to_navy:hover{
+	color:navy ;
+	background-color:white;
+	border:2px solid navy ;
+}
+
+.to_navajowhite {
+	color:white;
+	background-color:navajowhite ;
+	border:2px solid navajowhite ;
+}
+
+.to_navajowhite:hover{
+	color:navajowhite ;
+	background-color:white;
+	border:2px solid navajowhite ;
+}
+
+.to_moccasin {
+	color:white;
+	background-color:moccasin ;
+	border:2px solid moccasin ;
+}
+
+.to_moccasin:hover{
+	color:moccasin ;
+	background-color:white;
+	border:2px solid moccasin ;
+}
+
+.to_mistyrose {
+	color:white;
+	background-color:mistyrose ;
+	border:2px solid mistyrose ;
+}
+
+.to_mistyrose:hover{
+	color:mistyrose ;
+	background-color:white;
+	border:2px solid mistyrose ;
+}
+
+.to_mintcream {
+	color:white;
+	background-color:mintcream ;
+	border:2px solid mintcream ;
+}
+
+.to_mintcream:hover{
+	color:mintcream ;
+	background-color:white;
+	border:2px solid mintcream ;
+}
+
+.to_midnightblue {
+	color:white;
+	background-color:midnightblue ;
+	border:2px solid midnightblue ;
+}
+
+.to_midnightblue:hover{
+	color:midnightblue ;
+	background-color:white;
+	border:2px solid midnightblue ;
+}
+
+.to_mediumvioletred {
+	color:white;
+	background-color:mediumvioletred ;
+	border:2px solid mediumvioletred ;
+}
+
+.to_mediumvioletred:hover{
+	color:mediumvioletred ;
+	background-color:white;
+	border:2px solid mediumvioletred ;
+}
+
+.to_mediumtorquoise {
+	color:white;
+	background-color:mediumtorquoise ;
+	border:2px solid mediumtorquoise ;
+}
+
+.to_mediumtorquoise:hover{
+	color:mediumtorquoise ;
+	background-color:white;
+	border:2px solid mediumtorquoise ;
+}
+
+.to_mediumspringgreen {
+	color:white;
+	background-color:mediumspringgreen ;
+	border:2px solid mediumspringgreen ;
+}
+
+.to_mediumspringgreen:hover{
+	color:mediumspringgreen ;
+	background-color:white;
+	border:2px solid mediumspringgreen ;
+}
+
+.to_mediumslateblue {
+	color:white;
+	background-color:mediumslateblue ;
+	border:2px solid mediumslateblue ;
+}
+
+.to_mediumslateblue:hover{
+	color:mediumslateblue ;
+	background-color:white;
+	border:2px solid mediumslateblue ;
+}
+
+.to_mediumseagreen {
+	color:white;
+	background-color:mediumseagreen ;
+	border:2px solid mediumseagreen ;
+}
+
+.to_mediumseagreen:hover{
+	color:mediumseagreen ;
+	background-color:white;
+	border:2px solid mediumseagreen ;
+}
+
+.to_mediumpurple {
+	color:white;
+	background-color:mediumpurple ;
+	border:2px solid mediumpurple ;
+}
+
+.to_mediumpurple:hover{
+	color:mediumpurple ;
+	background-color:white;
+	border:2px solid mediumpurple ;
+}
+
+.to_mediumorchid {
+	color:white;
+	background-color:mediumorchid ;
+	border:2px solid mediumorchid ;
+}
+
+.to_mediumorchid:hover{
+	color:mediumorchid ;
+	background-color:white;
+	border:2px solid mediumorchid ;
+}
+
+.to_mediumblue {
+	color:white;
+	background-color:mediumblue ;
+	border:2px solid mediumblue ;
+}
+
+.to_mediumblue:hover{
+	color:mediumblue ;
+	background-color:white;
+	border:2px solid mediumblue ;
+}
+
+.to_mediumaquamarine {
+	color:white;
+	background-color:mediumaquamarine ;
+	border:2px solid mediumaquamarine ;
+}
+
+.to_mediumaquamarine:hover{
+	color:mediumaquamarine ;
+	background-color:white;
+	border:2px solid mediumaquamarine ;
+}
+
+.to_maroon {
+	color:white;
+	background-color:maroon ;
+	border:2px solid maroon ;
+}
+
+.to_maroon:hover{
+	color:maroon ;
+	background-color:white;
+	border:2px solid maroon ;
+}
+
+.to_magenta {
+	color:white;
+	background-color:magenta ;
+	border:2px solid magenta ;
+}
+
+.to_magenta:hover{
+	color:magenta ;
+	background-color:white;
+	border:2px solid magenta ;
+}
+
+.to_linen {
+	color:white;
+	background-color:linen ;
+	border:2px solid linen ;
+}
+
+.to_linen:hover{
+	color:linen ;
+	background-color:white;
+	border:2px solid linen ;
+}
+
+.to_limegreen {
+	color:white;
+	background-color:limegreen ;
+	border:2px solid limegreen ;
+}
+
+.to_limegreen:hover{
+	color:limegreen ;
+	background-color:white;
+	border:2px solid limegreen ;
+}
+
+.to_lime {
+	color:white;
+	background-color:lime ;
+	border:2px solid lime ;
+}
+
+.to_lime:hover{
+	color:lime ;
+	background-color:white;
+	border:2px solid lime ;
+}
+
+.to_lightyellow {
+	color:white;
+	background-color:lightyellow ;
+	border:2px solid lightyellow ;
+}
+
+.to_lightyellow:hover{
+	color:lightyellow ;
+	background-color:white;
+	border:2px solid lightyellow ;
+}
+
+.to_lightsteelblue {
+	color:white;
+	background-color:lightsteelblue ;
+	border:2px solid lightsteelblue ;
+}
+
+.to_lightsteelblue:hover{
+	color:lightsteelblue ;
+	background-color:white;
+	border:2px solid lightsteelblue ;
+}
+
+.to_lightslategrey {
+	color:white;
+	background-color:lightslategrey ;
+	border:2px solid lightslategrey ;
+}
+
+.to_lightsgrey:hover{
+	color:lightslategrey ;
+	background-color:white;
+	border:2px solid lightslategrey ;
+}
+
+.to_lightskyblue {
+	color:white;
+	background-color:lightskyblue ;
+	border:2px solid lightskyblue ;
+}
+
+.to_lightskyblue:hover{
+	color:lightskyblue ;
+	background-color:white;
+	border:2px solid lightskyblue ;
+}
+
+.to_lightsalmon {
+	color:white;
+	background-color:lightsalmon ;
+	border:2px solid lightsalmon ;
+}
+
+.to_lightsalmon:hover{
+	color:lightsalmon ;
+	background-color:white;
+	border:2px solid lightsalmon ;
+}
+
+.to_lightpink {
+	color:white;
+	background-color:lightpink ;
+	border:2px solid lightpink ;
+}
+
+.to_lightpink:hover{
+	color:lightpink ;
+	background-color:white;
+	border:2px solid lightpink ;
+}
+
+.to_lightgreen {
+	color:white;
+	background-color:lightgreen ;
+	border:2px solid lightgreen ;
+}
+
+.to_lightgreen:hover{
+	color:lightgreen ;
+	background-color:white;
+	border:2px solid lightgreen ;
+}
+
+.to_lightgray {
+	color:white;
+	background-color:lightgray ;
+	border:2px solid lightgray ;
+}
+
+.to_lightgray:hover{
+	color:lightgray ;
+	background-color:white;
+	border:2px solid lightgray ;
+}
+
+.to_lightgoldenrodyellow {
+	color:white;
+	background-color:lightgoldenrodyellow ;
+	border:2px solid lightgoldenrodyellow ;
+}
+
+.to_lightgoldenrodyellow:hover{
+	color:lightgoldenrodyellow ;
+	background-color:white;
+	border:2px solid lightgoldenrodyellow ;
+}
+
+.to_lightcyan {
+	color:white;
+	background-color:lightcyan ;
+	border:2px solid lightcyan ;
+}
+
+.to_lightcyan:hover{
+	color:lightcyan ;
+	background-color:white;
+	border:2px solid lightcyan ;
+}
+
+.to_lightcorel {
+	color:white;
+	background-color:lightcorel ;
+	border:2px solid lightcorel ;
+}
+
+.to_lightcorel:hover{
+	color:lightcorel ;
+	background-color:white;
+	border:2px solid lightcorel ;
+}
+
+.to_lightblue {
+	color:white;
+	background-color:lightblue ;
+	border:2px solid lightblue ;
+}
+
+.to_lightblue:hover{
+	color:lightblue ;
+	background-color:white;
+	border:2px solid lightblue ;
+}
+
+.to_lemonchiffon {
+	color:white;
+	background-color:lemonchiffon ;
+	border:2px solid lemonchiffon ;
+}
+
+.to_lemonchiffon:hover{
+	color:lemonchiffon ;
+	background-color:white;
+	border:2px solid lemonchiffon ;
+}
+
+.to_lawngreen {
+	color:white;
+	background-color:lawngreen ;
+	border:2px solid lawngreen ;
+}
+
+.to_lawngreen:hover{
+	color:lawngreen ;
+	background-color:white;
+	border:2px solid lawngreen ;
+}
+
+.to_lavenderblush {
+	color:white;
+	background-color:lavenderblush ;
+	border:2px solid lavenderblush ;
+}
+
+.to_lavenderblush:hover{
+	color:lavenderblush ;
+	background-color:white;
+	border:2px solid lavenderblush ;
+}
+
+.to_lavender {
+	color:white;
+	background-color:lavender ;
+	border:2px solid lavender ;
+}
+
+.to_lavender:hover{
+	color:lavender ;
+	background-color:white;
+	border:2px solid lavender ;
+}
+
+.to_khaki {
+	color:white;
+	background-color:khaki ;
+	border:2px solid khaki ;
+}
+
+.to_khaki:hover{
+	color:khaki ;
+	background-color:white;
+	border:2px solid khaki ;
+}
+
+.to_ivory {
+	color:white;
+	background-color:ivory ;
+	border:2px solid ivory ;
+}
+
+.to_ivory:hover{
+	color:ivory ;
+	background-color:white;
+	border:2px solid ivory ;
+}
+
+.to_indigo {
+	color:white;
+	background-color:indigo ;
+	border:2px solid indigo ;
+}
+
+.to_indigo:hover{
+	color:indigo ;
+	background-color:white;
+	border:2px solid indigo ;
+}
+
+.to_indianred {
+	color:white;
+	background-color:indianred ;
+	border:2px solid indianred ;
+}
+
+.to_indianred:hover{
+	color:indianred ;
+	background-color:white;
+	border:2px solid indianred ;
+}
+
+.to_hotpink {
+	color:white;
+	background-color:hotpink ;
+	border:2px solid hotpink ;
+}
+
+.to_hotpink:hover{
+	color:hotpink ;
+	background-color:white;
+	border:2px solid hotpink ;
+}
+
+.to_honeydew {
+	color:white;
+	background-color:honeydew ;
+	border:2px solid honeydew ;
+}
+
+.to_honeydew:hover{
+	color:honeydew ;
+	background-color:white;
+	border:2px solid honeydew ;
+}
+
+.to_greenyellow {
+	color:white;
+	background-color:greenyellow ;
+	border:2px solid greenyellow ;
+}
+
+.to_greenyellow:hover{
+	color:greenyellow ;
+	background-color:white;
+	border:2px solid greenyellow ;
+}
+
+.to_green {
+	color:white;
+	background-color:green ;
+	border:2px solid green ;
+}
+
+.to_green:hover{
+	color:green ;
+	background-color:white;
+	border:2px solid green ;
+}
+
+.to_grey {
+	color:white;
+	background-color:grey ;
+	border:2px solid grey ;
+}
+
+.to_grey:hover{
+	color:grey ;
+	background-color:white;
+	border:2px solid grey ;
+}
+
+.to_goldenrod {
+	color:white;
+	background-color:goldenrod ;
+	border:2px solid goldenrod ;
+}
+
+.to_goldenrod:hover{
+	color:goldenrod ;
+	background-color:white;
+	border:2px solid goldenrod ;
+}
+
+.to_gold {
+	color:white;
+	background-color:gold ;
+	border:2px solid gold ;
+}
+
+.to_gold:hover{
+	color:gold ;
+	background-color:white;
+	border:2px solid gold ;
+}
+
+.to_ghostwhite {
+	color:white;
+	background-color:ghostwhite ;
+	border:2px solid ghostwhite ;
+}
+
+.to_ghostwhite:hover{
+	color:ghostwhite ;
+	background-color:white;
+	border:2px solid ghostwhite ;
+}
+
+.to_gainsboro {
+	color:white;
+	background-color:gainsboro ;
+	border:2px solid gainsboro ;
+}
+
+.to_gainsboro:hover{
+	color:gainsboro ;
+	background-color:white;
+	border:2px solid gainsboro ;
+}
+
+.to_fuchsia {
+	color:white;
+	background-color:fuchsia ;
+	border:2px solid fuchsia ;
+}
+
+.to_fuchsia:hover{
+	color:fuchsia ;
+	background-color:white;
+	border:2px solid fuchsia ;
+}
+
+.to_forestgreen {
+	color:white;
+	background-color:forestgreen ;
+	border:2px solid forestgreen ;
+}
+
+.to_forestgreen:hover{
+	color:forestgreen ;
+	background-color:white;
+	border:2px solid forestgreen ;
+}
+
+.to_floralwhite {
+	color:white;
+	background-color:floralwhite ;
+	border:2px solid floralwhite ;
+}
+
+.to_floralwhite:hover{
+	color:floralwhite ;
+	background-color:white;
+	border:2px solid floralwhite ;
+}
+
+.to_firebrick {
+	color:white;
+	background-color:firebrick ;
+	border:2px solid firebrick ;
+}
+
+.to_firebrick:hover{
+	color:firebrick ;
+	background-color:white;
+	border:2px solid firebrick ;
+}
+
+.to_aliceblue{
+  color:white;
+  background-color:aliceblue;
+  border:2px solid aliceblue;
+}
+
+.to_aliceblue :hover{
+  color:aliceblue;
+  background-color:white;
+  border:2px solid aliceblue;
+}
+
+.to_antiquewhite{
+  color:white;
+  background-color:antiquewhite;
+  border:2px solid antiquewhite;
+}
+
+.to_antiquewhite:hover{
+  color:antiquewhite  ;
+  background-color:white;
+  border:2px solid antiquewhite;
+}
+
+.to_aqua{
+  color:white;
+  background-color:aqua;
+  border:2px solid aqua;
+}
+
+.to_aqua :hover{
+  color:aqua  ;
+  background-color:white;
+  border:2px solid aqua  ;
+}
+
+.to_aquamarine{
+  color:white;
+  background-color:aquamarine;
+  border:2px solid aquamarine;
+}
+
+.to_aquamarine:hover{
+  color:aquamarine;
+  background-color:white;
+  border:2px solid aquamarine;
+}
+
+.to_azure{
+  color:white;
+  background-color:azure;
+  border:2px solid azure;
+}
+
+.to_azure:hover{
+  color:azure;
+  background-color:white;
+  border:2px solid azure;
+}
+
+.to_beige{
+  color:white;
+  background-color:beige;
+  border:2px solid beige;
+}
+
+.to_beige:hover{
+  color:beige;
+  background-color:white;
+  border:2px solid beige;
+}
+
+.to_bisque{
+  color:white;
+  background-color:bisque;
+  border:2px solid bisque;
+}
+
+.to_bisque:hover{
+  color:bisque;
+  background-color:white;
+  border:2px solid bisque;
+}
+
+.to_black{
+  color:white;
+  background-color:black;
+  border:2px solid black;
+}
+
+.to_black:hover{
+  color:black;
+  background-color:white;
+  border:2px solid black;
+}
+
+.to_blanchedalmond{
+  color:white;
+  background-color:blanchedalmond;
+  border:2px solid blanchedalmond;
+}
+
+.to_blanchedalmond:hover{
+  color:blanchedalmond;
+  background-color:white;
+  border:2px solid blanchedalmond;
+}
+
+.to_blue{
+  color:white;
+  background-color:blue;
+  border:2px solid blue;
+}
+
+.to_blue:hover{
+  color:blue;
+  background-color:white;
+  border:2px solid blue;
+}
+
+.to_blueviolet{
+  color:white;
+  background-color:blueviolet;
+  border:2px solid blueviolet;
+}
+
+.to_blueviolet:hover{
+  color:blueviolet;
+  background-color:white;
+  border:2px solid blueviolet;
+}
+
+.to_brown{
+  color:white;
+  background-color:brown;
+  border:2px solid brown;
+}
+
+.to_brown:hover{
+  color:brown;
+  background-color:white;
+  border:2px solid brown;
+}
+
+.to_burlywood{
+  color:white;
+  background-color:burlywood;
+  border:2px solid burlywood;
+}
+
+.to_burlywood:hover{
+  color:burlywood;
+  background-color:white;
+  border:2px solid burlywood  ;
+}
+
+.to_cadetblue{
+  color:white;
+  background-color:cadetblue;
+  border:2px solid cadetblue;
+}
+
+.to_cadetblue:hover{
+  color:cadetblue;
+  background-color:white;
+  border:2px solid cadetblue;
+}
+
+.to_chartreuse{
+  color:white;
+  background-color:chartreuse;
+  border:2px solid chartreuse;
+}
+
+.to_chartreuse:hover{
+  color:chartreuse;
+  background-color:white;
+  border:2px solid chartreuse;
+}
+
+.to_chocolate{
+  color:white;
+  background-color:chocolate;
+  border:2px solid chocolate;
+}
+
+.to_chocolate:hover{
+  color:chocolate;
+  background-color:white;
+  border:2px solid chocolate;
+}
+
+.to_coral{
+  color:white;
+  background-color:coral;
+  border:2px solid coral;
+}
+
+.to_coral:hover{
+  color:coral;
+  background-color:white;
+  border:2px solid coral;
+}
+
+.to_cornflowerblue {
+  color:white;
+  background-color:cornflowerblue ;
+  border:2px solid cornflowerblue ;
+}
+
+.to_cornflowerblue:hover{
+  color:cornflowerblue;
+  background-color:white;
+  border:2px solid cornflowerblue ;
+}
+
+.to_cornsilk{
+  color:white;
+  background-color:cornsilk;
+  border:2px solid cornsilk;
+}
+
+.to_cornsilk:hover{
+  color:cornsilk;
+  background-color:white;
+  border:2px solid cornsilk;
+}
+
+.to_crimson{
+  color:white;
+  background-color:crimson;
+  border:2px solid crimson;
+}
+
+.to_crimson:hover{
+  color:crimson;
+  background-color:white;
+  border:2px solid crimson;
+}
+
+.to_cyan{
+  color:white;
+  background-color:cyan;
+  border:2px solid cyan;
+}
+
+.to_cyan:hover{
+  color:cyan;
+  background-color:white;
+  border:2px solid cyan;
+}
+
+.to_carkblue{
+  color:white;
+  background-color:carkblue;
+  border:2px solid carkblue;
+}
+
+.to_carkblue:hover{
+  color:carkblue;
+  background-color:white;
+  border:2px solid carkblue;
+}
+
+.to_darkcyan{
+  color:white;
+  background-color:darkcyan;
+  border:2px solid darkcyan;
+}
+
+.to_darkcyan:hover{
+  color:darkcyan;
+  background-color:white;
+  border:2px solid darkcyan;
+}
+
+.to_darkgoldenrod{
+  color:white;
+  background-color:darkgoldenrod;
+  border:2px solid darkgoldenrod;
+}
+
+.to_darkgoldenrod:hover{
+  color:darkgoldenrod;
+  background-color:white;
+  border:2px solid darkgoldenrod;
+}
+
+.to_darkgray{
+  color:white;
+  background-color:darkgray;
+  border:2px solid darkgray;
+}
+
+.to_darkgray:hover{
+  color:darkgray;
+  background-color:white;
+  border:2px solid darkgray;
+}
+
+.to_darkgrey{
+  color:white;
+  background-color:darkgrey;
+  border:2px solid darkgrey;
+}
+
+.to_darkgrey:hover{
+  color:darkgrey;
+  background-color:white;
+  border:2px solid darkgrey;
+}
+
+.to_darkgreen{
+  color:white;
+  background-color:darkgreen;
+  border:2px solid darkgreen;
+}
+
+.to_darkgreen:hover{
+  color:darkgreen;
+  background-color:white;
+  border:2px solid darkgreen;
+}
+
+.to_darkkhaki{
+  color:white;
+  background-color:darkkhaki;
+  border:2px solid darkkhaki;
+}
+
+.to_darkkhaki:hover{
+  color:darkkhaki  ;
+  background-color:white;
+  border:2px solid darkkhaki ;
+}
+
+.to_darkmagenta {
+  color:white;
+  background-color:darkmagenta  ;
+  border:2px solid darkmagenta  ;
+}
+
+.to_darkmagenta:hover{
+  color:darkmagenta;
+  background-color:white;
+  border:2px solid darkmagenta;
+}
+
+.to_darkolivegreen{
+  color:white;
+  background-color:darkolivegreen;
+  border:2px solid darkolivegreen;
+}
+
+.to_darkolivegreen:hover{
+  color:darkolivegreen;
+  background-color:white;
+  border:2px solid darkolivegreen;
+}
+
+.to_darkorange{
+  color:white;
+  background-color:darkorange;
+  border:2px solid darkorange;
+}
+
+.to_darkorange:hover{
+  color:darkorange;
+  background-color:white;
+  border:2px solid darkorange;
+}
+
+.to_darkorchid{
+  color:white;
+  background-color:darkorchid;
+  border:2px solid darkorchid;
+}
+
+.to_darkorchid:hover{
+  color:darkorchid;
+  background-color:white;
+  border:2px solid darkorchid;
+}
+
+.to_darkred {
+  color:white;
+  background-color:darkred;
+  border:2px solid darkred;
+}
+
+.to_darkred:hover{
+  color:darkred;
+  background-color:white;
+  border:2px solid darkred;
+}
+
+.to_darksalmon {
+  color:white;
+  background-color:darksalmon ;
+  border:2px solid darksalmon ;
+}
+
+.to_darksalmon:hover{
+  color:darksalmon ;
+  background-color:white;
+  border:2px solid darksalmon ;
+}
+
+.to_darkseagreen{
+  color:white;
+  background-color:darkseagreen;
+  border:2px solid darkseagreen;
+}
+
+.to_darkseagreen :hover{
+  color:darkseagreen ;
+  background-color:white;
+  border:2px solid darkseagreen;
+}
+
+.to_darkslateblue {
+  color:white;
+  background-color:darkslateblue  ;
+  border:2px solid darkslateblue  ;
+}
+
+.to_darkslateblue:hover{
+  color:darkslateblue  ;
+  background-color:white;
+  border:2px solid darkslateblue  ;
+}
+
+.to_darkslategray {
+  color:white;
+  background-color:darkslategray;
+  border:2px solid darkslategray;
+}
+
+.to_darkslategray:hover{
+  color:darkslategray;
+  background-color:white;
+  border:2px solid darkslategray;
+}
+
+.to_darkslategrey{
+  color:white;
+  background-color:darkslategrey;
+  border:2px solid darkslategrey;
+}
+
+
+.to_darkslategrey:hover{
+  color:darkslategrey  ;
+  background-color:white;
+  border:2px solid darkslategrey  ;
+}
+
+.to_darkturquoise{
+  color:white;
+  background-color:darkturquoise;
+  border:2px solid darkturquoise ;
+}
+
+.to_darkturquoise:hover{
+  color:darkturquoise;
+  background-color:white;
+  border:2px solid darkturquoise;
+}
+
+.to_darkviolet{
+  color:white;
+  background-color:darkviolet;
+  border:2px solid darkviolet;
+}
+
+.to_darkviolet:hover{
+  color:darkviolet ;
+  background-color:white;
+  border:2px solid darkviolet ;
+}
+
+.to_deeppink {
+  color:white;
+  background-color:deeppink;
+  border:2px solid deeppink;
+}
+
+.to_deeppink:hover{
+  color:deeppink;
+  background-color:white;
+  border:2px solid deeppink;
+}
+
+.to_deepskyblue{
+  color:white;
+  background-color:deepskyblue;
+  border:2px solid deepskyblue;
+}
+
+.to_deepskyblue:hover{
+  color:deepskyblue;
+  background-color:white;
+  border:2px solid deepskyblue;
+}
+
+.to_dimgray{
+  color:white;
+  background-color:dimgray;
+  border:2px solid dimgray;
+}
+
+.to_dimgray:hover{
+  color:dimgray;
+  background-color:white;
+  border:2px solid dimgray;
+}
+
+.to_dimgrey{
+  color:white;
+  background-color:dimgrey;
+  border:2px solid dimgrey;
+}
+
+.to_dimgrey:hover{
+  color:dimgrey;
+  background-color:white;
+  border:2px solid dimgrey;
+}
+
+.to_dodgerblue{
+  color:white;
+  background-color:dodgerblue;
+  border:2px solid dodgerblue;
+}
+
+.to_dodgerblue:hover{
+  color:dodgerblue;
+  background-color:white;
+  border:2px solid dodgerblue;
+}
+
+.large {
+	font-size:32px;
+	padding: 20px 40px;
+}
+
+.large:hover{
+	font-size:32px;
+	padding: 20px 40px;
+}
+
+.medium {
+	font-size:24px;
+	padding: 18px 36px;
+}
+
+.medium:hover{
+	font-size:24px;
+	padding: 18px 36px;
+}
+
+.xtra_small {
+	font-size: 10px;
+	padding:10px 20px;
+}
+
+.xtra_small:hover{
+	font-size: 10px;
+	padding:10px 20px;
+}
+
+.border_to_black{
+	border:2px solid black;
+}
+
+.border_to_black:hover{
+	border:2px solid black;
+}
+
+.border_to_blue{
+	border:2px solid blue;
+}
+
+.border_to_blue:hover{
+	border:2px solid blue;
+}
+
+.border_to_violet{
+	border:2px solid violet;
+}
+
+.border_to_violet:hover{
+	border:2px solid violet;
+}
+
+.border_to_grey{
+  border:2px solid grey;
+}
+
+.border_to_grey:hover{
+  border:2px solid grey;
+}
+
+.border_to_red{
+  border:2px solid red;
+}
+
+.border_to_red:hover{
+  border:2px solid red;
+}
+
+.border_to_green{
+  border:2px solid green;
+}
+
+.border_to_green:hover{
+  border:2px solid green;
+}
+
+.border_to_brown{
+  border:2px solid brown;
+}
+
+.border_to_brown:hover{
+  border:2px solid brown;
+}
+
+.border_to_navy{
+  border:2px solid navy;
+}
+
+.border_to_navy:hover{
+  border:2px solid navy;
+}
+
+.border_to_maroon{
+  border:2px solid maroon;
+}
+
+.border_to_maroon:hover{
+  border:2px solid maroon;
+}
+
+.border_to_purple{
+  border:2px solid purple;
+}
+
+.border_to_purple:hover{
+  border:2px solid purple;
+}
+
+.border_to_olive{
+  border:2px solid olive;
+}
+
+.border_to_olive:hover{
+  border:2px solid olive;
+}
+
+.shadow{box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);}
+.shadow:hover{box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);}
